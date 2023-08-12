@@ -1,4 +1,4 @@
-html, body, img, div {
+html, body, img, p {
     margin: 0;
     padding: 0;
     vertical-align: top;
@@ -33,30 +33,63 @@ input {
     color: red;
 }
 
-img {
-    position: absolute;
+p {
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
 }
 
-#p0, #p1, #p2, #p3, #p4 {
+.rowd {
+    position: absolute;
+    left: 0;
+    width: 70%;
+}
+
+.hr1 {
+    top: 154px;
+}
+
+.hr2 {
+    top: 254px;
+}
+
+.hr3 {
+    top: 354px;
+}
+
+.hr4 {
+    top: 454px;
+}
+
+.hr5 {
+    top: 554px;
+}
+
+.car {
+    position: absolute;
+    border-bottom: 2px solid white;
+}
+
+.car, #p0, #p1, #p2, #p3, #p4 {
     left: 680px;
 }
 
-#p0 {
+.car0 {
     top: 100px;
 }
 
-#p1 {
+.car1 {
     top: 200px;
 }
 
-#p2 {
+.car2 {
     top: 300px;
 }
 
-#p3 {
+.car3 {
     top: 400px;
 }
 
-#p4 {
+.car4 {
     top: 500px;
 }
