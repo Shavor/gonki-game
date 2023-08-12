@@ -6,9 +6,9 @@ let cx;// массив координат
 let gameBegin;
 let totalSum = 0;
 
-// let summ = prompt('Введите вашу сумму');
-// let c = +prompt('На какую машину делаете ставку (от 0 до 4)');
-// let stavka = +prompt('Сколько вы ставите на выйгрыш');
+let summ = prompt('Введите вашу сумму');
+let c = +prompt('На какую машину делаете ставку (от 0 до 4)');
+let stavka = +prompt('Сколько вы ставите на выйгрыш');
 
 function go() {
     if(gameBegin==1) return;
