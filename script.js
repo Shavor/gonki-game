@@ -36,7 +36,7 @@ function timeGo(){
                 alert('Вы победили');
                 summ += stavka;
             } else {
-                alert(`Вы проиграли. Первым было машина ${i+1}`);
+                alert(`Вы проиграли. Первым была машина ${i+1}`);
                 alert('Ваша сумма ' + summ);
             }
             cars[i].style.border = '1px solid red';
